@@ -99,7 +99,7 @@ export default function Payment() {
         shippingDetails,
         {
           headers: { token: localStorage.getItem("token") },
-          params: { url: "http://localhost:3000" },
+          params: { url: "https://abdonaser.github.io/FreshCart" },
         }
       );
       console.log(data.session.url);
