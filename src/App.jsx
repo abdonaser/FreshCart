@@ -1,5 +1,5 @@
 import React from "react";
-import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import { RouterProvider, createBrowserRouter, createHashRouter } from "react-router-dom";
 import Nav from "./Components/Nav/Nav";
 import Layout from "./Components/Layoute/Layout";
 import Home from "./Components/Home/Home";
@@ -26,7 +26,7 @@ import { Offline } from "react-detect-offline";
 import WishList from "./Components/WishList/WishList";
 import Tagroba from "./Components/Tagroba/Tagroba";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "",
     element: <Layout />,
