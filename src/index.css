@@ -11,3 +11,201 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.main-color{
+  color:#33BA33;
+} 
+ .main-bg-color{
+background-color: #33BA33;}
+.stars-color{
+  color: #DAA520 !important ;}
+  /* Products */
+  .product{
+    overflow: hidden;
+  cursor: pointer;
+
+  }
+  .black-color{
+    color:black !important;
+  }
+ .product-layout{
+  transition: all .5s;
+  border-radius: var(--bs-border-radius)!important;
+}
+.product:hover {
+  box-shadow: 1px 1px 10px #4fa74f;
+}
+.product:hover .navigatetoCartBtn {
+  bottom:6px;
+}
+.navigatetoCartBtn {
+  width: 80%;
+  margin: auto;
+    bottom:-70px;
+    
+    transition: all .5s;
+}
+.icon-hover-red ,.icon-hover-black{
+transition: all .5s;
+width: fit-content;
+}
+.icon-hover-red:hover{
+  color:red;
+}
+.icon-hover-black:hover{
+  color:black;
+}
+
+
+.category-cart{
+  border: 2px solid #0000002d;
+  transition:all .5s;
+}
+.category-cart:hover{
+box-shadow: 1px 1px 10px #4fa74f;
+
+}
+.border-category-title{
+  border-top: 2px solid #0000002d;
+}
+.category-cart img{
+  /* height: 350px; */
+}
+
+.brand-cart{
+  border: 1px solid #0000002d;
+  transition:all .5s;
+}
+.brand-cart:hover{
+  box-shadow: 1px 1px 10px #4fa74f;
+
+}
+/* categoryy slider */
+
+.category-slider,.categorySliderName{
+  transition:all .4s;
+}
+.category-slider:hover{
+  box-shadow: 1px 1px 10px #4fa74f;
+  transform: scale(1, 1.1);
+  margin-bottom: 15px;
+}
+/* .categorySliderImg{
+  transition:all .6s;
+}
+.category-slider:hover .categorySliderImg{
+  
+} */
+.category-slider:hover .categorySliderName{
+  font-size: 17px;
+  font-weight: bolder;
+}
+
+.p-size {
+  font-size: 20px !important;
+  text-transform: capitalize;
+
+}
+
+.h2-size{
+  font-size: 30px !important;
+  font-weight: bolder;
+  text-transform: capitalize;
+
+}
+
+.ringStyleIncBtn{
+ display: flex ;
+ justify-content: center;
+ align-items: center;
+height: 22px;
+width: 14px;
+margin: 0px;
+padding: 0px;
+font-size: 20px; 
+
+/* color:##DEE2E6 */
+/* color:#555d65 */
+}
+
+
+/* AllProducts Component */
+
+.totalCartPrice{
+  border-top : 3px dashed black ;
+}
+
+
+.wishLIstBtn:active{
+    color:red !important;
+}
+
+/* profile */
+
+
+.profil table tr{
+  font-size: 22px;
+  
+}
+.profil table tr td{
+  padding: 10px;
+}
+.profil table tr .head{
+  font-size: 25px;
+  font-weight: 600;
+}
+.profil table tr .value{
+  font-size: 20px;
+  font-weight: 400;
+}
+
+
+
+
+
+
+
+/* tagroba */
+
+
+
+
+/* footer */
+/* .footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: yellow;
+  color: black;
+  text-align: center;
+} */
+body {
+  height: 100vh !important;
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.footer {
+  margin-top: auto !important;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
